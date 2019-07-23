@@ -30,8 +30,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, {dataEncapsulation: false }
-    ),
-    InMemoryDataService
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
